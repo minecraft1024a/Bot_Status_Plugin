@@ -7,7 +7,7 @@ __plugin_meta__ = PluginMetadata(
     version="1.0.0",
     author="YiShan",
     license="GPL-v3.0-or-later",
-    repository_url="https://github.com/minecraft1024a",
+    repository_url="https://github.com/minecraft1024a/Bot_Status_Plugin/",
     keywords=["status", "statistics", "management"],
     extra={
         "plugin_type": "info",
