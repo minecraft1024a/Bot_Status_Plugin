@@ -15,6 +15,7 @@ from src.plugin_system.apis import (
     message_api,
     plugin_manage_api,
 )
+from src.plugin_system import register_plugin
 from src.plugin_system.base.base_plugin import BasePlugin
 from src.plugin_system.base.command_args import CommandArgs
 from src.plugin_system.base.component_types import ChatType, PlusCommandInfo
@@ -110,8 +111,7 @@ class StatusCommand(PlusCommand):
 
 
 from src.plugin_system.base.component_types import PermissionNodeField
-
-
+@register_plugin
 class BotStatusPlugin(BasePlugin):
     plugin_name: str = "bot_status"
     enable_plugin: bool = True
