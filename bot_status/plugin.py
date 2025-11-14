@@ -22,7 +22,7 @@ from src.plugin_system.base.component_types import ChatType, PlusCommandInfo
 from src.plugin_system.base.plus_command import PlusCommand
 from src.plugin_system.utils.permission_decorators import require_permission
 
-from image_generator import ImageGenerator
+from .image_generator import ImageGenerator
 
 
 class StatusCommand(PlusCommand):
